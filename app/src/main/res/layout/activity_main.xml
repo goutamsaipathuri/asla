@@ -15,7 +15,7 @@
         <!-- This is used for combining the children elements in the ScrollView-->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center_horizontal">
 
@@ -358,6 +358,16 @@
                 </android.support.v7.widget.CardView>
 
             </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="bottom"
+                android:text="version 1.0 (for internal use only)"/>
+
         </LinearLayout>
+
     </ScrollView>
+
 </LinearLayout>

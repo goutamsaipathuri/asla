@@ -5,12 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <ExpandableListView
         android:id="@+id/expListViewfaq"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
+        android:background="@color/white"
         android:layoutDirection="ltr"
         android:divider="@android:color/darker_gray"
         android:dividerHeight="0.5dp" />

@@ -41,7 +41,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/rounded_corners_green"
+                        android:background="@drawable/rounded_corners_pink"
                         android:gravity="center"
                         android:orientation="vertical"
                         android:visibility="visible">
@@ -56,8 +56,11 @@
                             android:textSize="16dp"
                             android:textStyle="bold" />
                     </LinearLayout>
+
                 </android.support.v7.widget.CardView>
+
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -78,7 +81,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/rounded_corners_green"
+                        android:background="@drawable/rounded_corners_yellow"
                         android:gravity="center"
                         android:orientation="vertical"
                         android:visibility="visible">
@@ -93,6 +96,7 @@
                             android:textSize="16dp"
                             android:textStyle="bold" />
                     </LinearLayout>
+
                 </android.support.v7.widget.CardView>
 
                 <!--Articles card-->
@@ -124,8 +128,11 @@
                             android:textSize="16dp"
                             android:textStyle="bold" />
                     </LinearLayout>
+
                 </android.support.v7.widget.CardView>
+
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -147,7 +154,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:background="@drawable/rounded_corners_green"
+                        android:background="@drawable/rounded_corners_purple"
                         android:orientation="vertical"
                         android:visibility="visible">
 
@@ -161,6 +168,7 @@
                             android:textSize="16dp"
                             android:textStyle="bold" />
                     </LinearLayout>
+
                 </android.support.v7.widget.CardView>
 
                 <!--Articles card-->
@@ -178,7 +186,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:background="@drawable/rounded_corners_green"                        android:orientation="vertical"
+                        android:background="@drawable/rounded_corners_pink"                        android:orientation="vertical"
                         android:visibility="visible">
 
                         <TextView
@@ -191,8 +199,13 @@
                             android:textSize="16dp"
                             android:textStyle="bold" />
                     </LinearLayout>
+
                 </android.support.v7.widget.CardView>
+
             </LinearLayout>
+
         </LinearLayout>
+
     </ScrollView>
+
 </LinearLayout>

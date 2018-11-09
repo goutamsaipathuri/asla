@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context="com.example.nikhilreddy.ass.MainActivity">
 
@@ -17,15 +17,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center_horizontal">
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
 
             <!-- Tutorials and Articles card-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center_horizontal">
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
 
                 <!-- Tutorials card-->
                 <android.support.v7.widget.CardView
@@ -35,14 +35,14 @@
                     android:layout_margin="10dp"
                     android:clickable="true"
                     android:focusable="true"
-                    app:cardElevation="0dp"
-                    android:foreground="?android:attr/selectableItemBackground">
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardElevation="0dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="@drawable/rounded_corners_pink"
                         android:gravity="center"
-                        android:background="@drawable/rounded_corners_purple"
                         android:orientation="vertical"
                         android:visibility="visible">
 
@@ -50,12 +50,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
-                            android:textAlignment="center"
                             android:text="Layered Software Architecture"
+                            android:textAlignment="center"
                             android:textColor="@color/white"
                             android:textSize="16dp"
                             android:textStyle="bold" />
+
                     </LinearLayout>
+
                 </android.support.v7.widget.CardView>
 
                 <!--Articles card-->
@@ -66,14 +68,14 @@
                     android:layout_margin="10dp"
                     android:clickable="true"
                     android:focusable="true"
-                    app:cardElevation="0dp"
-                    android:foreground="?android:attr/selectableItemBackground">
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardElevation="0dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="@drawable/rounded_corners_yellow"
                         android:gravity="center"
-                        android:background="@drawable/rounded_corners_purple"
                         android:orientation="vertical"
                         android:visibility="visible">
 
@@ -81,19 +83,22 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
-                            android:textAlignment="center"
                             android:text="Methodology"
+                            android:textAlignment="center"
                             android:textColor="@color/white"
                             android:textSize="16dp"
                             android:textStyle="bold" />
                     </LinearLayout>
+
                 </android.support.v7.widget.CardView>
+
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center_horizontal">
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
 
                 <!-- Tutorials card-->
                 <android.support.v7.widget.CardView
@@ -103,14 +108,14 @@
                     android:layout_margin="10dp"
                     android:clickable="true"
                     android:focusable="true"
-                    app:cardElevation="0dp"
-                    android:foreground="?android:attr/selectableItemBackground">
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardElevation="0dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="@drawable/rounded_corners_green"
                         android:gravity="center"
-                        android:background="@drawable/rounded_corners_purple"
                         android:orientation="vertical"
                         android:visibility="visible">
 
@@ -118,12 +123,13 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
-                            android:textAlignment="center"
                             android:text="Configuration Classes"
+                            android:textAlignment="center"
                             android:textColor="@color/white"
                             android:textSize="16dp"
                             android:textStyle="bold" />
                     </LinearLayout>
+
                 </android.support.v7.widget.CardView>
 
                 <!--Articles card-->
@@ -134,28 +140,34 @@
                     android:layout_margin="10dp"
                     android:clickable="true"
                     android:focusable="true"
-                    app:cardElevation="0dp"
-                    android:foreground="?android:attr/selectableItemBackground">
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardElevation="0dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="@drawable/rounded_corners_purple"
                         android:gravity="center"
-                        android:background="@drawable/rounded_corners_purple"                        android:orientation="vertical"
+                        android:orientation="vertical"
                         android:visibility="visible">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
-                            android:textAlignment="center"
                             android:text="Conformance Classes"
+                            android:textAlignment="center"
                             android:textColor="@color/white"
                             android:textSize="16dp"
                             android:textStyle="bold" />
                     </LinearLayout>
+
                 </android.support.v7.widget.CardView>
+
             </LinearLayout>
+
         </LinearLayout>
+
     </ScrollView>
+
 </LinearLayout>

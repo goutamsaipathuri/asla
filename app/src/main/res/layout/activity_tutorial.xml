@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context="com.example.nikhilreddy.ass.MainActivity">
 
@@ -34,33 +35,28 @@
                     android:layout_margin="10dp"
                     android:clickable="true"
                     android:focusable="true"
+                    app:cardElevation="0dp"
                     android:foreground="?android:attr/selectableItemBackground">
 
                     <LinearLayout
-                        android:id="@+id/tutoriallayout"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:background="@drawable/rounded_corners_pink"
                         android:orientation="vertical"
                         android:visibility="visible">
 
                         <TextView
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:gravity="center"
-                            android:background="@drawable/purple_resource_file"
-                            android:text="1"
-                            android:textColor="@color/white"
-                            android:textSize="32sp"
-                            android:textStyle="bold" />
-
-                        <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            android:textAlignment="center"
                             android:text="Basics"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
                             android:textStyle="bold" />
                     </LinearLayout>
+
                 </android.support.v7.widget.CardView>
 
                 <!--Articles card-->
@@ -71,44 +67,39 @@
                     android:layout_margin="10dp"
                     android:clickable="true"
                     android:focusable="true"
+                    app:cardElevation="0dp"
                     android:foreground="?android:attr/selectableItemBackground">
 
                     <LinearLayout
-                        android:id="@+id/articleslayout"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:background="@drawable/rounded_corners_yellow"
                         android:orientation="vertical"
                         android:visibility="visible">
 
                         <TextView
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:gravity="center"
-                            android:background="@drawable/pink_resource_file"
-                            android:text="2"
-                            android:textColor="@color/white"
-                            android:textSize="32sp"
-                            android:textStyle="bold" />
-
-                        <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            android:textAlignment="center"
                             android:text="BSW"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
                             android:textStyle="bold" />
                     </LinearLayout>
+
                 </android.support.v7.widget.CardView>
+
             </LinearLayout>
 
-            <!-- FAQ and Quiz card-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_horizontal">
 
-                <!-- FAQ card-->
+                <!-- Tutorials card-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/chap3Card"
                     android:layout_width="160dp"
@@ -116,36 +107,31 @@
                     android:layout_margin="10dp"
                     android:clickable="true"
                     android:focusable="true"
+                    app:cardElevation="0dp"
                     android:foreground="?android:attr/selectableItemBackground">
 
                     <LinearLayout
-                        android:id="@+id/faqlayout"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:background="@drawable/rounded_corners_green"
                         android:orientation="vertical"
                         android:visibility="visible">
 
                         <TextView
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:gravity="center"
-                            android:background="@drawable/green_resource_file"
-                            android:text="3"
-                            android:textColor="@color/white"
-                            android:textSize="32sp"
-                            android:textStyle="bold" />
-
-                        <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            android:textAlignment="center"
                             android:text="Com STACK"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
                             android:textStyle="bold" />
                     </LinearLayout>
+
                 </android.support.v7.widget.CardView>
 
-                <!-- Quiz card-->
+                <!--Articles card-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/chap4Card"
                     android:layout_width="160dp"
@@ -153,35 +139,32 @@
                     android:layout_margin="10dp"
                     android:clickable="true"
                     android:focusable="true"
+                    app:cardElevation="0dp"
                     android:foreground="?android:attr/selectableItemBackground">
 
                     <LinearLayout
-                        android:id="@+id/quizlayout"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:background="@drawable/rounded_corners_purple"
                         android:orientation="vertical"
                         android:visibility="visible">
 
                         <TextView
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:gravity="center"
-                            android:background="@drawable/yellow_resource_file"
-                            android:text="4"
-                            android:textColor="@color/white"
-                            android:textSize="32sp"
-                            android:textStyle="bold" />
-
-                        <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            android:textAlignment="center"
                             android:text="OS"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
                             android:textStyle="bold" />
                     </LinearLayout>
+
                 </android.support.v7.widget.CardView>
+
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -196,34 +179,34 @@
                     android:layout_margin="10dp"
                     android:clickable="true"
                     android:focusable="true"
+                    app:cardElevation="0dp"
                     android:foreground="?android:attr/selectableItemBackground">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:background="@drawable/rounded_corners_yellow"
                         android:orientation="vertical"
                         android:visibility="visible">
 
                         <TextView
-                        android:layout_width="64dp"
-                        android:layout_height="64dp"
-                        android:gravity="center"
-                        android:background="@drawable/purple_resource_file"
-                        android:text="5"
-                        android:textColor="@color/white"
-                        android:textSize="32sp"
-                        android:textStyle="bold" />
-
-                        <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
+                            android:layout_margin="10dp"
+                            android:textAlignment="center"
                             android:text="RTE"
+                            android:textColor="@color/white"
+                            android:textSize="16dp"
                             android:textStyle="bold" />
                     </LinearLayout>
+
                 </android.support.v7.widget.CardView>
+
             </LinearLayout>
+
         </LinearLayout>
+
     </ScrollView>
+
 </LinearLayout>
